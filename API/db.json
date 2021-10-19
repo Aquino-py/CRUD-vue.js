@@ -1,19 +1,57 @@
 {
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Vinicius"
+    },
+    {
+      "id": 2,
+      "nome": "Paula"
+    },
+    {
+      "id": 3,
+      "nome": "Luna"
+    }
+  ],
   "alunos": [
     {
       "id": 1,
       "nome": "Marcus",
-      "sobrenome": "Xavier"
+      "sobrenome": "Xavier",
+      "dataNasc": "01/02/2000",
+      "professor": {
+        "id": 1,
+        "nome": "Vinicius"
+      }
     },
     {
       "id": 2,
       "nome": "Pedro",
-      "sobrenome": "Nunes"
+      "sobrenome": "Nunes",
+      "professor": {
+        "id": 2,
+        "nome": "Paula"
+      }
     },
     {
-      "id": 3,
-      "nome": "Carlos",
-      "sobrenome": "Marcondes"
+      "id": 4,
+      "nome": "Pedro",
+      "sobrenome": "Querido",
+      "dataNasc": "21/10/1998",
+      "professor": {
+        "id": 1,
+        "nome": "Vinicius"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "erika",
+      "sobrenome": "querido",
+      "dataNasc": "19/01/1974",
+      "professor": {
+        "id": 3,
+        "nome": "Luna"
+      }
     }
   ]
 }
